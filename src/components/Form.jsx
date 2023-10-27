@@ -10,7 +10,7 @@ const Form = ({newInputHandler}) => {
         setDescription(e.target.value);
     } 
     const valueHandler = (e) => {
-        setValue(e.target.value);
+        setValue(e.target.value)
     } 
     const formHandler = (e) => {
         e.preventDefault();
