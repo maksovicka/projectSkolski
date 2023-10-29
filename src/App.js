@@ -9,7 +9,7 @@ function App() {
   const newInputHandler = (newInput) => {
     setNewInput((prevState => [newInput, ...prevState]))
   }
-  console.log(newInput)
+  console.log(newInput);
 
   return (
     <div className="App">
